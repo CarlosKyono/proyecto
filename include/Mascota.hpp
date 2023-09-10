@@ -27,4 +27,4 @@ public:
     int DecirHambre(){
         return this->hambre;
     }
-}
+} ;
