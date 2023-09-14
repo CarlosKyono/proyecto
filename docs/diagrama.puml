@@ -1,0 +1,129 @@
+@startuml 
+
+class Boomberman
+class Enemigo 
+class Poder
+class Item 
+class Tablero 
+class Bomba 
+class Vida
+class Nivel
+class Controlador
+
+class Casilla 
+class Pared 
+class Puerta
+
+class Positivo 
+class Negativo 
+
+class Boombermannegro
+class Mikki
+class Regulus
+class Altair
+class Pommy
+class Lilith
+class Sirius 
+class Orion 
+class Artemis
+class Mujoe 
+class Buggler 
+class DoctorEin
+class DoctorMechadoc
+class VilesBombers
+class CrushBombers
+class Max 
+class Nitros
+class Rukifelth
+class BombersDiabolicos 
+
+class FireUp
+class BombUp
+class Patines 
+class GuanteDeEnergia 
+class BlockPasser
+class Minas 
+class BombPasser
+class RemoteBomb
+class SuperBomb
+class LineBomb
+
+class TrajeDeFuego
+class Corazon 
+class VidaExtra
+class MotoBomber
+class BombaSalada
+class Louies
+
+class Calavera 
+class Geta 
+class BombaNegativa
+
+Nivel o-- Tablero
+Controlador o-- Boomberman
+Controlador o-- Enemigo 
+
+Boomberman o-- Poder 
+Boomberman o-- Item 
+Boomberman o-- Bomba 
+Boomberman *-- Vida 
+
+Bomba o-- Poder
+Vida o-- Poder  
+
+Tablero *-- Casilla
+Tablero *-- Pared 
+Tablero *-- Puerta 
+Tablero *-- Enemigo
+Tablero *-- Boomberman 
+
+Positivo --|> Item
+Negativo --|> Item 
+
+TrajeDeFuego --|> Positivo
+Corazon --|> Positivo 
+VidaExtra --|> Positivo
+MotoBomber --|> Positivo
+BombaSalada --|> Positivo
+Louies --|> Positivo 
+
+Calavera --|> Negativo
+Geta --|> Negativo
+BombaNegativa --|> Negativo 
+
+Boombermannegro --|> Enemigo
+Regulus --|> Enemigo 
+Altair --|> Enemigo
+Orion --|> Enemigo 
+Artemis --|> Enemigo 
+Mujoe --|> Enemigo 
+Buggler --|> Enemigo
+DoctorMechadoc --|> Enemigo 
+VilesBombers --|> Enemigo
+CrushBombers --|> Enemigo
+Nitros --|> Enemigo 
+Rukifelth --|> Enemigo 
+BombersDiabolicos --|> Enemigo 
+
+Mikki --|> Boomberman
+Pommy --|> Boomberman 
+Lilith --|> Boomberman 
+Sirius --|> Boomberman 
+DoctorEin --|> Boomberman
+Max --|> Boomberman 
+
+FireUp --|> Poder
+BombUp --|> Poder 
+Patines --|> Poder 
+GuanteDeEnergia --|> Poder
+BlockPasser --|> Poder 
+
+Minas --|> Bomba
+BombPasser --|> Bomba 
+RemoteBomb --|> Bomba 
+SuperBomb --|> Bomba 
+LineBomb --|> Bomba 
+
+
+
+@endlmul 

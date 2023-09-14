@@ -10,7 +10,8 @@ int main(int argc, char const *argv[])
     m1.Jugar();
     m1.Jugar();  
 
-    std::cout<<m1.
+    std::cout<<m1.DecirNombre() << "tiene";
+    std::cout<<m1.DecirHambre() << "de hambre";
 
     m1.Comer(5);
 
