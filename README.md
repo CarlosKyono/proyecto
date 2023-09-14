@@ -1,28 +1,8 @@
 # proyecto
 
-este es un texto *texto*
-**Hola puerk**
+*Boomberman*
+![logo](https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/07/super-bomberman-r-online-1996063.jpeg?tf=3840x)
 
-## Como compilar
->c++ src/main.cpp
+## Descripcion
+**Boomberman**: Boomberman es un video de tablero en donde el jugador puede poner bombas para ir rompiendo paredes 
 
->este es un codigo de consola 
-
-## Este es una lista
-- Elemento de lista
-- Elemento de lista
-
-
-# MARKDOWN
-
-## Descripcion 
-
-### Como instalar
-
-## Contacto
-
-## Para imagenes
-![]() 
-
-# Diagrama 
-![](/out/docs/diagrama/diagrama.png)
