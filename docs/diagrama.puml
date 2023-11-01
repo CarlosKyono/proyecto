@@ -1,6 +1,7 @@
 @startuml 
 
 class Boomberman
+class jugador 
 class Enemigo 
 class Poder
 class Item 
