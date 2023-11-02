@@ -1,6 +1,8 @@
 @startuml 
 
 class Boomberman
+class Ventana
+class Dibujo
 class jugador 
 class Enemigo 
 class Poder
@@ -124,6 +126,10 @@ BombPasser --|> Bomba
 RemoteBomb --|> Bomba 
 SuperBomb --|> Bomba 
 LineBomb --|> Bomba 
+
+Escenario --|> Dibujo
+Bomberman --|> Dibujo
+Escenario o-- Bomberman 
 
 
 
